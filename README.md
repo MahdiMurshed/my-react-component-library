@@ -1,6 +1,6 @@
 # my-react-component-library
 
-In this repo,I will try to create my own component library. While doing it,I will experiment different ui libraries.
+In this repo,I will try to create my own component library. While doing so,I will experiment with different ui libraries.
 
 ## instructions
 
