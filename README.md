@@ -4,9 +4,9 @@ In this repo,I will try to create my own component library. While doing so,I wil
 
 ## instructions
 
-### For stiches and radix-ui
+
 ```
-cd -w stiches & radix-ui
+cd <directory name>
 yarn 
 ```
 In one terminal 
@@ -15,5 +15,11 @@ yarn start
 ```
 In other terminal
 ```
+yarn storybook
+```
+Example :
+```
+cd stiches
+yarn start
 yarn storybook
 ```
