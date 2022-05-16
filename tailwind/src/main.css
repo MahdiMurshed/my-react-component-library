@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-default {
+    @apply tracking-widest text-base text-center uppercase
+shadow-md text-white rounded font-bold hover:-translate-y-1 mt-6 transition-transform duration-200 scale-[1.05];
+  }
+}
