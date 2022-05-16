@@ -5,6 +5,8 @@ export const ButtonType = {
   basic:
     'bg-white  border border-slate-800  hover:bg-gray-700 hover:border-none hover:text-white text-gray-700 ',
   delete: 'bg-red-700  hover:bg-red-800  shadow-red-500/50 ',
+  disabled:
+    'bg-gray-500 shadow-gray-500/50 text-black cursor-not-allowed focus:outline-none disabled:opacity-75 disabled:hover:transform:none',
 };
 
 export const ButtonSize = {

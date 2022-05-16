@@ -14,9 +14,6 @@ const meta: Meta = {
     variant: {
       defaultValue: 'basic',
     },
-    // outlined: {
-    //   defaultValue: false,
-    // },
     size: {
       defaultValue: 'sm',
     },
@@ -24,20 +21,18 @@ const meta: Meta = {
       defaultValue: false,
     },
   },
-  //   parameters: {
-  //     controls: { expanded: true },
-  //   },
 };
 
 export default meta;
 
 const Template: Story<Props> = (args) => <Button {...args} />;
 
+export const basic = Template.bind({});
 export const primary = Template.bind({});
 export const Secondary = Template.bind({});
-export const basic = Template.bind({});
 export const Delete = Template.bind({});
-// export const primaryOutlined = Template.bind({});
+export const Disabled = Template.bind({});
+
 primary.args = {
   variant: 'primary',
   children: 'primary',
@@ -59,6 +54,13 @@ Secondary.args = {
   children: 'secondary',
 
   onClick: action('secondary clicked'),
+};
+Disabled.args = {
+  variant: 'disabled',
+  children: 'Disabled',
+  disabled: true,
+
+  onClick: () => {},
 };
 
 // Default.args = {};
